@@ -6,7 +6,7 @@ var express = require('express'),
     cookieParser = require('cookie-parser'),
     bodyParser = require('body-parser'),
     db = require('./models/db'),
-    port = 3000;
+    port = 8080;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
