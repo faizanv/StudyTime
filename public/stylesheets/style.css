@@ -1,8 +1,93 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
 }
 
 a {
   color: #00B7FF;
+}
+
+.scroller {
+    height: 2000px;
+    width: 30px;
+    background: #000;
+}
+
+.sidebar {
+    background: rgba(230, 119, 46, 0.88);
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #999;
+    overflow-x: scroll;
+}
+
+.deck {
+    width: 180px;
+    padding: 10px;
+}
+
+.main {
+    background: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+    padding: 30px 200px 0 0;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    background: #4DB3B3;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.cardMain {
+    background: #F2C249;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    color: #E64A45;
+    display: inline-block;
+}
+
+.username {
+    font-size: 9pt;
+}
+
+.title {
+    font-size: 20pt;
+}
+
+.content {
+    font-size: 17pt;
+}
+
+.form {
+    margin: 20px;
+    padding: 15px;
+}
+
+#addCard {
+    text-align: justified;
+    display: inline-block;
 }

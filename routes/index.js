@@ -1,11 +1,11 @@
-
-
-
-module.exports = function (app, db){
+module.exports = function(app, db) {
 
     /* GET home page. */
     app.get('/', function(req, res, next) {
-      res.render('index', { title: 'Express' });
+        console.log("root called");
+        res.render('index', {
+            title: 'Express'
+        });
     });
 
 }

@@ -21,8 +21,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 require("./routes/api")(app, db)
-require("./routes/users")(app, db)
 require("./routes/index")(app, db)
+require("./routes/users")(app, db)
 
 app.listen(port);
 console.log("App listening on "+port)

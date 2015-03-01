@@ -28,7 +28,8 @@ cardMethods.update = function(old, updated, callback) {
 };
 
 cardMethods.remove = function(body, callback) {
-    Card.findOneAndRemove(body, callback);
+    Card.remove(body, callback);
+    // Card.findOneAndRemove(body, callback);
 };
 
 module.exports = cardMethods;
